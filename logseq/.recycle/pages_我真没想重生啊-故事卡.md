@@ -1,0 +1,6 @@
+- ### 陈汉升醉酒重生（2019=>2002）
+	- #### [醉酒重生](bookxnotepro://opennote/?nb={ece47c37-692d-419d-9b91-4ce85d9c956d}&book=c41d30e4355a04b8cc8f42efc1e84235&page=7&x=295&y=599&id=1&uuid=af883e84832e674ee22b1914c6cc64f1)
+		- [[陈汉升]]回到高中[[毕业]]晚会表白[[萧容鱼]]被拒当晚。
+	- ##### [各奔前程](bookxnotepro://opennote/?nb={ece47c37-692d-419d-9b91-4ce85d9c956d}&book=c41d30e4355a04b8cc8f42efc1e84235&page=18&x=295&y=248&id=3&uuid=05e56dfbdb15f37970fdd889d390d408)
+	- [陈汉升豪言自费读大学](bookxnotepro://opennote/?nb={ece47c37-692d-419d-9b91-4ce85d9c956d}&book=c41d30e4355a04b8cc8f42efc1e84235&page=27&x=295&y=697&id=4&uuid=06d7256e6a2db970efa0502af9f45a42)
+	-
