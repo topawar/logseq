@@ -28,10 +28,10 @@
 		  </dependency> 
 		  ```
 	- ### 临时密钥
-	  collapsed:: true
 		- [临时密钥（临时访问凭证）](https://www.tencentcloud.com/document/product/1150/49452) 是通过 CAM 云 API 提供的接口，获取到权限受限的密钥。
 		- COS API 可以使用临时密钥计算签名，用于发起 COS API 请求。
 		- COS API 请求使用临时密钥计算签名时，需要用到获取临时密钥接口返回信息中的三个字段，如下：
+		  collapsed:: true
 			- TmpSecretId
 			- TmpSecretKey
 			- Token
@@ -138,4 +138,62 @@
 			  }
 			  
 			  ```
-	-
+	- ### 使用临时密钥访问 COS
+		- COS API 使用临时密钥访问 COS 服务时，通过 ==x-cos-security-token 字段传递临时 sessionToken==，通过临时 SecretId 和 SecretKey 计算签名。
+			- ``` java
+			  // 根据 github 提供的 maven 集成方式导入 cos xml java sdk
+			  import com.qcloud.cos.*;
+			  import com.qcloud.cos.auth.*;
+			  import com.qcloud.cos.exception.*;
+			  import com.qcloud.cos.model.*;
+			  import com.qcloud.cos.region.*;
+			  public class Demo {
+			      public static void main(String[] args) throws Exception {
+			  
+			          // 用户基本信息
+			          String tmpSecretId = "COS_SECRETID";   // 替换为 STS 接口返回给您的临时 SecretId 
+			          String tmpSecretKey = "COS_SECRETKEY";  // 替换为 STS 接口返回给您的临时 SecretKey
+			          String sessionToken = "Token";  // 替换为 STS 接口返回给您的临时 Token
+			  
+			          // 1 初始化用户身份信息(secretId, secretKey)
+			          COSCredentials cred = new BasicCOSCredentials(tmpSecretId, tmpSecretKey);
+			          // 2 设置 bucket 区域,详情请参见 COS 地域 https://www.tencentcloud.com/document/product/436/6224?from_cn_redirect=1
+			          ClientConfig clientConfig = new ClientConfig(new Region("ap-guangzhou"));
+			          // 3 生成 cos 客户端
+			          COSClient cosclient = new COSClient(cred, clientConfig);
+			          // bucket 名需包含 appid
+			          String bucketName = "examplebucket-1250000000";
+			  
+			          String key = "exampleobject";
+			          // 上传 object, 建议 20M 以下的文件使用该接口
+			          File localFile = new File("src/test/resources/text.txt");
+			          PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, key, localFile);
+			  
+			          // 设置 x-cos-security-token header 字段
+			          ObjectMetadata objectMetadata = new ObjectMetadata();
+			          objectMetadata.setSecurityToken(sessionToken);
+			          putObjectRequest.setMetadata(objectMetadata);
+			  
+			          try {
+			              PutObjectResult putObjectResult = cosclient.putObject(putObjectRequest);
+			              // 成功：putobjectResult 会返回文件的 etag
+			              String etag = putObjectResult.getETag();
+			          } catch (CosServiceException e) {
+			              //失败，抛出 CosServiceException
+			              e.printStackTrace();
+			          } catch (CosClientException e) {
+			              //失败，抛出 CosClientException
+			              e.printStackTrace();
+			          }
+			  
+			          // 关闭客户端
+			          cosclient.shutdown();
+			  
+			      }
+			  }
+			  
+			  ```
+		- 创建连接时建议直接指定`sessionToken`
+		- ``` java
+		   COSCredentials cred = new BasicSessionCredentials(tmpSecretId, tmpSecretKey, tmpSessionToken);
+		  ```
