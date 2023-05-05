@@ -8,13 +8,6 @@
 - ``` typescript
   import axios, {AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse} from "axios";
   import Qs from "qs"
-  import router from "../routers/index"
-  export interface Result<T = any> {
-      code: 0.
-      data: {},
-      message: "ok"
-  }
-  // const routeStore = useRouteStore(pinia);
   
   const service: AxiosInstance = axios.create({
       baseURL: '/api',
