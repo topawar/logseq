@@ -1,13 +1,14 @@
 - 引入axios
 - 引入qs
-- ```
-  yarn add axios
-  yarn add Qs
-  ```
+	- ```
+	  yarn add axios	
+	  yarn add Qs
+	  ```
 - 简单封装，详细配置参考官网 [axios文档](https://axios-http.com/zh/docs/intro)
+- [[$red]]==qs引用名不要用大写的Qs,会有坑 `import qs from "qs";`==
 - ``` typescript
   import axios, {AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse} from "axios";
-  import Qs from "qs"
+  import qs from "qs"
   
   const service: AxiosInstance = axios.create({
       baseURL: '/api',
