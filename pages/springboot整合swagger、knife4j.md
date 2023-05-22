@@ -1,3 +1,7 @@
+- #swagger#knife4j#springboot3#接口文档
+-
+- ## [官方文档](https://doc.xiaominfo.com/docs/quick-start#spring-boot-3)
+-
 - ### springboot3版本
 - 1. 引入maven
 	- ``` maven
@@ -66,80 +70,9 @@
 	                                  .url("http://locahost:8082")));
 	      }
 	  ```
-	- @Configuration
-	- public class SwaggerConfig {
-	- /**
-	- * 根据@Tag 上的排序，写入x-order
-	- *
-	- * @return the global open api customizer
-	- */
-	- @Bean
-	- public GlobalOpenApiCustomizer orderGlobalOpenApiCustomizer() {
-	- return openApi -> {
-	- if (openApi.getTags() != null) {
-	- openApi.getTags().forEach(tag -> {
-	- Map<String, Object> map = new HashMap<>();
-	- map.put("x-order", RandomUtil.randomInt(0, 100));
-	- tag.setExtensions(map);
-	- });
-	- }
-	- if (openApi.getPaths() != null) {
-	- openApi.addExtension("x-test123", "333");
-	- openApi.getPaths().addExtension("x-abb", RandomUtil.randomInt(1, 100));
-	- }
-	- };
-	- }
-	- @Bean
-	- public OpenAPI customOpenAPI() {
-	- return new OpenAPI()
-	- .info(new Info()
-	- .title("seed用户系统API")
-	- .version("1.0")
-	- .description("seed后台管理系统")
-	- .termsOfService("http://locahost:8082")
-	- .license(new License().name("Apache 2.0")
-	- .url("http://locahost:8082")));
-	- ```java
-	  @Configuration
-	  public class SwaggerConfig {
-	      /**
-	       * 根据@Tag 上的排序，写入x-order
-	       *
-	       * @return the global open api customizer
-	       */
-	      @Bean
-	      public GlobalOpenApiCustomizer orderGlobalOpenApiCustomizer() {
-	          return openApi -> {
-	              if (openApi.getTags() != null) {
-	                  openApi.getTags().forEach(tag -> {
-	                      Map<String, Object> map = new HashMap<>();
-	                      map.put("x-order", RandomUtil.randomInt(0, 100));
-	                      tag.setExtensions(map);
-	                  });
-	              }
-	              if (openApi.getPaths() != null) {
-	                  openApi.addExtension("x-test123", "333");
-	                  openApi.getPaths().addExtension("x-abb", RandomUtil.randomInt(1, 100));
-	              }
-	  
-	          };
-	      }
-	  
-	      @Bean
-	      public OpenAPI customOpenAPI() {
-	          return new OpenAPI()
-	                  .info(new Info()
-	                          .title("seed用户系统API")
-	                          .version("1.0")
-	                          .description("seed后台管理系统")
-	                          .termsOfService("http://locahost:8082")
-	                          .license(new License().name("Apache 2.0")
-	                                  .url("http://locahost:8082")));
-	      }
-	  ```
 -
 - 完成后就可以在浏览器中输入 当前项目地址+端口`/doc.html`访问了
 - [[$red]]==如果自定义了拦截器，要放行swagger的资源==
 	- `"/swagger-resources/**", "/webjars/**", "/v3/**", "/swagger-ui.html/**"`
-- [[$red]]==`controller`层接受的参数是封装的类要在参数前面加上`@ParameterObject`注解==
+- [[$red]]==`controller`层接收的参数是封装的类要在参数前面加上`@ParameterObject`注解==
 -
