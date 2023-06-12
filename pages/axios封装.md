@@ -64,5 +64,62 @@
           return service.delete(url, config)
       }
   }
+  ```
+-
+- 第二种封装
+- ```ts
+  import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
   
+  interface IResponseData<T = any> {
+    code: number;
+    message: string;
+    data: T;
+  }
+  
+  export class HttpClient {
+    private instance: AxiosInstance;
+  
+    constructor(baseURL: string) {
+      this.instance = axios.create({
+        baseURL,
+        timeout: 5000,
+        headers: {
+          'Content-Type': 'application/json;charset=UTF-8',
+        },
+      });
+  
+      // 添加请求拦截器
+      this.instance.interceptors.request.use((config) => {
+        // 在发送请求之前做些什么
+        console.log('请求拦截器：', config);
+        return config;
+      }, (error) => {
+        // 对请求错误做些什么
+        console.error('请求拦截器发生错误：', error);
+        return Promise.reject(error);
+      });
+  
+      // 添加响应拦截器
+      this.instance.interceptors.response.use((response) => {
+        // 对响应数据做些什么
+        const responseData: IResponseData = response.data;
+        console.log('响应拦截器：', responseData);
+        return responseData.data;
+      }, (error) => {
+        // 对响应错误做些什么
+        console.error('响应拦截器发生错误：', error);
+        return Promise.reject(error);
+      });
+    }
+  
+    public async get<T>(url: string, config?: AxiosRequestConfig): Promise<T> {
+      const response: AxiosResponse<IResponseData<T>> = await this.instance.get(url, config);
+      return response.data.data;
+    }
+  
+    public async post<T>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> {
+      const response: AxiosResponse<IResponseData<T>> = await this.instance.post(url, data, config);
+      return response.data.data;
+    }
+  }
   ```
