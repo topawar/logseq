@@ -1,0 +1,80 @@
+{:blocks (
+{:block/created-at 1687714292185
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [325.6666564941406 561.0000152587891]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "1f338060-137e-11ee-a4bc-3fd58535e800"
+:fontWeight 400
+:noFill false
+:point [184.83334350585938 102.16667175292969]
+:fontSize 20
+:parentId "649879e1-31c2-4788-8cf6-b6f1fc2a701e"
+:nonce 1687714290619
+:italic false}}
+:block/updated-at 1687714292185} 
+{:block/content "LATER 测试\nid:: 64987a03-cff0-45bd-b882-58579067c858"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "649879e1-31c2-4788-8cf6-b6f1fc2a701e"}
+:block/parent 
+{:block/uuid #uuid "649879e1-31c2-4788-8cf6-b6f1fc2a701e"}
+:block/properties 
+{:id "64987a03-cff0-45bd-b882-58579067c858"}
+:block/uuid #uuid "64987a03-cff0-45bd-b882-58579067c858"} 
+{:block/created-at 1687714365945
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "64987a03-cff0-45bd-b882-58579067c858"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [317.3333740234375 115]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "242585f0-137e-11ee-a4bc-3fd58535e800"
+:noFill false
+:point [188.83331298828125 109.5]
+:parentId "649879e1-31c2-4788-8cf6-b6f1fc2a701e"
+:collapsedHeight 0
+:nonce 1687714299273}}
+:block/updated-at 1687714365945})
+:pages (
+{:block/uuid #uuid "649879e1-31c2-4788-8cf6-b6f1fc2a701e"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "649879e1-31c2-4788-8cf6-b6f1fc2a701e"
+:name "待办事项"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("1f338060-137e-11ee-a4bc-3fd58535e800" "242585f0-137e-11ee-a4bc-3fd58535e800")}}
+:block/updated-at 1687714365945
+:block/created-at 1687714273729
+:block/type "whiteboard"
+:block/name "待办事项"
+:block/original-name "待办事项"})}
