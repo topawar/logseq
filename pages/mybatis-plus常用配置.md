@@ -16,7 +16,8 @@
 				- >逻辑删除是为了方便数据恢复和保护数据本身价值等等的一种方案，但实际就是删除。
 				  如果你需要频繁查出来看就不应使用逻辑删除，而是以一个状态去表示。
 	- #### 步骤1：配置application.yml
-		- ```yml
+		- id:: 6496b345-0fc1-4fff-8fec-dc3111eeceff
+		  ```yml
 		  mybatis-plus:
 		    global-config:
 		      db-config:
