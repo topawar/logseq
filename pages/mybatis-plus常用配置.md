@@ -25,6 +25,7 @@
 		        logic-delete-value: 1  #逻辑已删除值(默认为 1)
 		        logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
 		  ```
+			-
 	- #### 步骤2：实体类字段上加上@TableLogic注解
 		- id:: 638568d3-3ccc-44c4-82a9-e5226d1e9b2c
 		  ```java
