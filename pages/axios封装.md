@@ -6,7 +6,8 @@
 	  ```
 - 简单封装，详细配置参考官网 [axios文档](https://axios-http.com/zh/docs/intro)
 - [[$red]]==qs引用名不要用大写的Qs,会有坑 `import qs from "qs";`==
-- ``` typescript
+- id:: 6496b345-2aa2-4752-a0ea-7fadf9299e00
+  ``` typescript
   import axios, {AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse} from "axios";
   import qs from "qs"
   
