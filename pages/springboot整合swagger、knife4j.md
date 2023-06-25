@@ -1,5 +1,4 @@
 - #swagger#knife4j#springboot3#接口文档
--
 - ## [官方文档](https://doc.xiaominfo.com/docs/quick-start#spring-boot-3)
 -
 - ### springboot3版本
