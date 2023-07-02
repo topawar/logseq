@@ -1,0 +1,54 @@
+{:blocks (
+{:block/content "{{query(todo later}}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64a17718-e6c7-4ec0-a6d7-4a03f7a80c8f"}
+:block/parent 
+{:block/uuid #uuid "64a17718-e6c7-4ec0-a6d7-4a03f7a80c8f"}
+:block/properties 
+{}
+:block/uuid #uuid "64a1772d-6e13-47a0-8e5f-8e531f3054a0"} 
+{:block/created-at 1688303405769
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "64a1772d-6e13-47a0-8e5f-8e531f3054a0"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bd406d30-18d9-11ee-88f6-438baac4a70d"
+:noFill false
+:point [352 144]
+:parentId "64a17718-e6c7-4ec0-a6d7-4a03f7a80c8f"
+:collapsedHeight 0
+:nonce 1688303395717}}
+:block/updated-at 1688303405769})
+:pages (
+{:block/uuid #uuid "64a17718-e6c7-4ec0-a6d7-4a03f7a80c8f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "64a17718-e6c7-4ec0-a6d7-4a03f7a80c8f"
+:name "待办看板"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("bd406d30-18d9-11ee-88f6-438baac4a70d")}}
+:block/updated-at 1688303416140
+:block/created-at 1688303384540
+:block/type "whiteboard"
+:block/name "待办看板"
+:block/original-name "待办看板"})}

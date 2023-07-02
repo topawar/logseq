@@ -1,0 +1,90 @@
+{:blocks (
+{:block/content "{{query(todo now)}}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64a17666-332b-4df2-862b-a72cd0bd002a"}
+:block/parent 
+{:block/uuid #uuid "64a17666-332b-4df2-862b-a72cd0bd002a"}
+:block/properties 
+{}
+:block/uuid #uuid "64a1768a-835e-4846-8361-53c7042e21cd"} 
+{:block/created-at 1688303325593
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "64a1768a-835e-4846-8361-53c7042e21cd"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "60d00740-18d9-11ee-88f6-438baac4a70d"
+:noFill false
+:point [168 160]
+:parentId "64a17666-332b-4df2-862b-a72cd0bd002a"
+:collapsedHeight 0
+:nonce 1688303240817}}
+:block/updated-at 1688303325593} 
+{:block/content "{{query (todo later)}}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64a1768a-835e-4846-8361-53c7042e21cd"}
+:block/parent 
+{:block/uuid #uuid "64a17666-332b-4df2-862b-a72cd0bd002a"}
+:block/properties 
+{}
+:block/uuid #uuid "64a176fb-754b-4514-be40-0e00ea05c5ab"} 
+{:block/created-at 1688303377273
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "64a176fb-754b-4514-be40-0e00ea05c5ab"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 250]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a475af90-18d9-11ee-88f6-438baac4a70d"
+:noFill false
+:point [1008 -3144]
+:parentId "64a17666-332b-4df2-862b-a72cd0bd002a"
+:collapsedHeight 0
+:nonce 1688303354256}}
+:block/updated-at 1688303377273})
+:pages (
+{:block/uuid #uuid "64a17666-332b-4df2-862b-a72cd0bd002a"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "64a17666-332b-4df2-862b-a72cd0bd002a"
+:name "待办"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("60d00740-18d9-11ee-88f6-438baac4a70d" "a475af90-18d9-11ee-88f6-438baac4a70d")}}
+:block/updated-at 1688303377273
+:block/created-at 1688303206647
+:block/type "whiteboard"
+:block/name "待办"
+:block/original-name "待办"})}
