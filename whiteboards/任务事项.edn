@@ -8,7 +8,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197a8-305b-43d5-86b3-438756257ed7"} 
-{:block/created-at 1688376079339
+{:block/created-at 1688500248988
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,7 +24,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 219.20001651790366]
+:size [320 306.77497607028556]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -33,8 +33,8 @@
 :point [104 152]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311714564}}
-:block/updated-at 1688376079339} 
+:nonce 1688311714578}}
+:block/updated-at 1688500248988} 
 {:block/content "do\nquery-table:: false\n{{query (todo now)}}"
 :block/format :markdown
 :block/left 
@@ -44,7 +44,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197e2-7f31-46ae-881c-1d356909e43a"} 
-{:block/created-at 1688376079343
+{:block/created-at 1688500248992
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -60,7 +60,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 394.35001702672713]
+:size [320 287.9499942135762]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -69,8 +69,8 @@
 :point [504 152]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311768745}}
-:block/updated-at 1688376079343} 
+:nonce 1688311768759}}
+:block/updated-at 1688500248992} 
 {:block/content "done\nquery-table:: true\nquery-properties:: [:block :page]\n{{query (todo done)}}"
 :block/format :markdown
 :block/left 
@@ -81,7 +81,7 @@
 {:query-table true
 :query-properties "[:block :page]"}
 :block/uuid #uuid "64a19828-8365-4108-a587-b537809c1c43"} 
-{:block/created-at 1688376095681
+{:block/created-at 1688500256673
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -97,17 +97,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 492.80005424781933]
+:size [320 521.9750087458366]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "6a076790-18ed-11ee-88f6-438baac4a70d"
 :noFill false
-:point [968 152]
+:point [976 152]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311847012}}
-:block/updated-at 1688376095681})
+:nonce 1688311847126}}
+:block/updated-at 1688500256673})
 :pages (
 {:block/uuid #uuid "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :block/properties 
@@ -120,7 +120,7 @@
 :nonce 1
 :assets []
 :shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d" "6a076790-18ed-11ee-88f6-438baac4a70d")}}
-:block/updated-at 1688376095681
+:block/updated-at 1688500256673
 :block/created-at 1688311678511
 :block/type "whiteboard"
 :block/name "任务事项"
