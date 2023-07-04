@@ -81,7 +81,7 @@
 {:query-table true
 :query-properties "[:block :page]"}
 :block/uuid #uuid "64a19828-8365-4108-a587-b537809c1c43"} 
-{:block/created-at 1688500256673
+{:block/created-at 1688500873244
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -103,11 +103,11 @@
 :opacity 1
 :id "6a076790-18ed-11ee-88f6-438baac4a70d"
 :noFill false
-:point [976 152]
+:point [944 144]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311847126}}
-:block/updated-at 1688500256673})
+:nonce 1688311847612}}
+:block/updated-at 1688500873244})
 :pages (
 {:block/uuid #uuid "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :block/properties 
@@ -120,7 +120,7 @@
 :nonce 1
 :assets []
 :shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d" "6a076790-18ed-11ee-88f6-438baac4a70d")}}
-:block/updated-at 1688500256673
+:block/updated-at 1688500873244
 :block/created-at 1688311678511
 :block/type "whiteboard"
 :block/name "任务事项"
