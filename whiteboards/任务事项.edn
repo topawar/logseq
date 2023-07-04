@@ -8,7 +8,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197a8-305b-43d5-86b3-438756257ed7"} 
-{:block/created-at 1688500248988
+{:block/created-at 1688501310139
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,17 +24,17 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 306.77497607028556]
+:size [320 306.77496337890625]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "1b896910-18ed-11ee-88f6-438baac4a70d"
 :noFill false
-:point [104 152]
+:point [40 160]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311714578}}
-:block/updated-at 1688500248988} 
+:nonce 1688311714732}}
+:block/updated-at 1688501310139} 
 {:block/content "do\nquery-table:: false\n{{query (todo now)}}"
 :block/format :markdown
 :block/left 
@@ -44,7 +44,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197e2-7f31-46ae-881c-1d356909e43a"} 
-{:block/created-at 1688500248992
+{:block/created-at 1688501312822
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -60,28 +60,28 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 287.9499942135762]
+:size [320 287.95001220703125]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "3b974830-18ed-11ee-88f6-438baac4a70d"
 :noFill false
-:point [504 152]
+:point [464 160]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311768759}}
-:block/updated-at 1688500248992} 
-{:block/content "done\nquery-table:: true\nquery-properties:: [:block :page]\n{{query (todo done)}}"
+:nonce 1688311768874}}
+:block/updated-at 1688501312822} 
+{:block/content "done\nquery-table:: false\nquery-properties:: [:block :page]\n{{query (todo done and sort-by created_at)}}"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "64a197e2-7f31-46ae-881c-1d356909e43a"}
 :block/parent 
 {:block/uuid #uuid "64a1977e-2ac8-4b3d-be17-b09b65db3da3"}
 :block/properties 
-{:query-table true
+{:query-table false
 :query-properties "[:block :page]"}
 :block/uuid #uuid "64a19828-8365-4108-a587-b537809c1c43"} 
-{:block/created-at 1688500873244
+{:block/created-at 1688501392855
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -97,17 +97,26 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 521.9750087458366]
+:size [320 1013.9750366210938]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "6a076790-18ed-11ee-88f6-438baac4a70d"
 :noFill false
-:point [944 144]
+:point [896 160]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311847612}}
-:block/updated-at 1688500873244})
+:nonce 1688311847776}}
+:block/updated-at 1688501392855} 
+{:block/content "{{query (todo done and sort-by created_at)}}\nquery-table:: true"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64a19828-8365-4108-a587-b537809c1c43"}
+:block/parent 
+{:block/uuid #uuid "64a1977e-2ac8-4b3d-be17-b09b65db3da3"}
+:block/properties 
+{:query-table true}
+:block/uuid #uuid "64a47c49-69a4-4efd-9f6e-ef57d291b914"})
 :pages (
 {:block/uuid #uuid "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :block/properties 
@@ -120,7 +129,7 @@
 :nonce 1
 :assets []
 :shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d" "6a076790-18ed-11ee-88f6-438baac4a70d")}}
-:block/updated-at 1688500873244
+:block/updated-at 1688501392855
 :block/created-at 1688311678511
 :block/type "whiteboard"
 :block/name "任务事项"
