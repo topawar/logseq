@@ -8,7 +8,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197a8-305b-43d5-86b3-438756257ed7"} 
-{:block/created-at 1688502135248
+{:block/created-at 1688517535144
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,7 +24,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 306.77496337890625]
+:size [320 306.7749938964844]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -34,8 +34,8 @@
 :point [40 160]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311714746}}
-:block/updated-at 1688502135248} 
+:nonce 1688311714753}}
+:block/updated-at 1688517535144} 
 {:block/content "do\nquery-table:: false\n{{query (todo now)}}"
 :block/format :markdown
 :block/left 
@@ -45,7 +45,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197e2-7f31-46ae-881c-1d356909e43a"} 
-{:block/created-at 1688502133183
+{:block/created-at 1688517567722
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -68,11 +68,11 @@
 :id "3b974830-18ed-11ee-88f6-438baac4a70d"
 :noFill false
 :isLocked true
-:point [464 160]
+:point [40 552]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311768888}}
-:block/updated-at 1688502133183} 
+:nonce 1688311769326}}
+:block/updated-at 1688517567722} 
 {:block/content "done\nquery-table:: true\nquery-properties:: [:block :page]\n{{query (todo done and sort-by created_at)}}"
 :block/format :markdown
 :block/left 
@@ -83,34 +83,6 @@
 {:query-table true
 :query-properties "[:block :page]"}
 :block/uuid #uuid "64a19828-8365-4108-a587-b537809c1c43"} 
-{:block/created-at 1688502124415
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
-:stroke "green"
-:collapsed false
-:borderRadius 8
-:index 2
-:scale [1 1]
-:pageId "64a19828-8365-4108-a587-b537809c1c43"
-:scaleLevel "sm"
-:fill "green"
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [320 521.9750366210938]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "6a076790-18ed-11ee-88f6-438baac4a70d"
-:noFill false
-:isLocked true
-:point [888 160]
-:parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
-:collapsedHeight 0
-:nonce 1688311848039}}
-:block/updated-at 1688502124415} 
 {:block/content "{{query (todo done and sort-by created_at)}}\nquery-table:: true"
 :block/format :markdown
 :block/left 
@@ -131,8 +103,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d" "6a076790-18ed-11ee-88f6-438baac4a70d")}}
-:block/updated-at 1688502138591
+:shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d")}}
+:block/updated-at 1688517567722
 :block/created-at 1688311678511
 :block/type "whiteboard"
 :block/name "任务事项"
