@@ -8,7 +8,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197a8-305b-43d5-86b3-438756257ed7"} 
-{:block/created-at 1688517535144
+{:block/created-at 1688630587398
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -24,18 +24,18 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 306.7749938964844]
+:size [320 438.3500209472165]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "1b896910-18ed-11ee-88f6-438baac4a70d"
 :noFill false
 :isLocked true
-:point [40 160]
+:point [-312 168]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311714753}}
-:block/updated-at 1688517535144} 
+:nonce 1688311714891}}
+:block/updated-at 1688630587398} 
 {:block/content "do\nquery-table:: false\n{{query (todo now)}}"
 :block/format :markdown
 :block/left 
@@ -45,7 +45,7 @@
 :block/properties 
 {:query-table false}
 :block/uuid #uuid "64a197e2-7f31-46ae-881c-1d356909e43a"} 
-{:block/created-at 1688517567722
+{:block/created-at 1688630585434
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -61,18 +61,18 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [320 287.95001220703125]
+:size [320 200.375027974206]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "3b974830-18ed-11ee-88f6-438baac4a70d"
 :noFill false
 :isLocked true
-:point [40 552]
+:point [136 168]
 :parentId "64a1977e-2ac8-4b3d-be17-b09b65db3da3"
 :collapsedHeight 0
-:nonce 1688311769326}}
-:block/updated-at 1688517567722} 
+:nonce 1688311769712}}
+:block/updated-at 1688630585434} 
 {:block/content "done\nquery-table:: true\nquery-properties:: [:block :page]\n{{query (todo done and sort-by created_at)}}"
 :block/format :markdown
 :block/left 
@@ -104,7 +104,7 @@
 :nonce 1
 :assets []
 :shapes-index ("1b896910-18ed-11ee-88f6-438baac4a70d" "3b974830-18ed-11ee-88f6-438baac4a70d")}}
-:block/updated-at 1688517567722
+:block/updated-at 1688630587398
 :block/created-at 1688311678511
 :block/type "whiteboard"
 :block/name "任务事项"
