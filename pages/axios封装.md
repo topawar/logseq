@@ -1,4 +1,4 @@
-- 引入axios
+- 引入axios#axios
 - 引入qs
 	- ```
 	  yarn add axios	
