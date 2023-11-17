@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "654450b0-7cfd-4c89-bc34-0f1b4446141e"} 
-{:block/created-at 1698976076454
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -31,11 +31,11 @@
 :opacity 1
 :id "a3744bc0-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
-:point [216 216]
+:point [112 144]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698975916888}}
-:block/updated-at 1698976076454} 
+:nonce 1698975916906}}
+:block/updated-at 1698982380072} 
 {:block/content "移动号码稽核86开头"
 :block/format :markdown
 :block/left 
@@ -50,7 +50,7 @@
 :block/parent 
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
 :block/uuid #uuid "654450eb-3428-4ff8-9047-cca4c62613ac"} 
-{:block/created-at 1698976033555
+{:block/created-at 1698982380070
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -74,11 +74,11 @@
 :id "c8ad41d0-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
 :isLocked false
-:point [472 208]
+:point [368 136]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698975979322}}
-:block/updated-at 1698976033555} 
+:nonce 1698975979340}}
+:block/updated-at 1698982380070} 
 {:block/content "移动号码剔除141、149、174号段的号码，号头不能在这范围"
 :block/format :markdown
 :block/left 
@@ -86,7 +86,7 @@
 :block/parent 
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
 :block/uuid #uuid "65445100-e149-4dd4-8aae-bbb9dec86155"} 
-{:block/created-at 1698976035190
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -109,11 +109,11 @@
 :id "d537dbe0-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
 :isLocked false
-:point [472 304]
+:point [368 232]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698976000289}}
-:block/updated-at 1698976035190} 
+:nonce 1698976000307}}
+:block/updated-at 1698982380072} 
 {:block/content "移动限制号码为13位"
 :block/format :markdown
 :block/left 
@@ -121,7 +121,7 @@
 :block/parent 
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
 :block/uuid #uuid "65445105-9c7c-41db-ad98-f6cf44f8b972"} 
-{:block/created-at 1698976022772
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -144,11 +144,11 @@
 :id "d865c340-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
 :isLocked false
-:point [472 128]
+:point [368 56]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698976005637}}
-:block/updated-at 1698976022772} 
+:nonce 1698976005655}}
+:block/updated-at 1698982380072} 
 {:block/content "固话号码（不带区号）长度为9-10位"
 :block/format :markdown
 :block/left 
@@ -156,7 +156,7 @@
 :block/parent 
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
 :block/uuid #uuid "6544510a-d2a5-4fdd-9dfa-ac7f4abc39c3"} 
-{:block/created-at 1698976044748
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -179,11 +179,11 @@
 :id "db4897e0-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
 :isLocked false
-:point [480 440]
+:point [376 368]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698976010629}}
-:block/updated-at 1698976044748} 
+:nonce 1698976010647}}
+:block/updated-at 1698982380072} 
 {:block/content "固化号码稽核区号（在主数据范围），截取前3位在主数据范围内"
 :block/format :markdown
 :block/left 
@@ -191,7 +191,7 @@
 :block/parent 
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
 :block/uuid #uuid "65445111-467f-4c77-a9e6-ded34ad7f99c"} 
-{:block/created-at 1698976048238
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -214,12 +214,12 @@
 :id "dfc175d0-79ea-11ee-bb2c-91f2ee1349ad"
 :noFill false
 :isLocked false
-:point [488 544]
+:point [384 472]
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :collapsedHeight 0
-:nonce 1698976018048}}
-:block/updated-at 1698976048238} 
-{:block/created-at 1698976076454
+:nonce 1698976018066}}
+:block/updated-at 1698982380072} 
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -236,7 +236,7 @@
 :id "f40a7be2-79ea-11ee-bb2c-91f2ee1349ad"
 :fontWeight 400
 :noFill true
-:point [305 162.68]
+:point [201 90.68]
 :fontSize 20
 :handles 
 {:start 
@@ -252,10 +252,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:nonce 1698976051952
+:nonce 1698976051970
 :italic false}}
-:block/updated-at 1698976076454} 
-{:block/created-at 1698976089824
+:block/updated-at 1698982380072} 
+{:block/created-at 1698982380071
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -272,7 +272,7 @@
 :id "04f38e12-79eb-11ee-bb2c-91f2ee1349ad"
 :fontWeight 400
 :noFill true
-:point [305 228.24]
+:point [201 156.24]
 :fontSize 20
 :handles 
 {:start 
@@ -288,10 +288,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:nonce 1698976080345
+:nonce 1698976080363
 :italic false}}
-:block/updated-at 1698976089824} 
-{:block/created-at 1698976096214
+:block/updated-at 1698982380071} 
+{:block/created-at 1698982380071
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -308,7 +308,7 @@
 :id "0a13f6a2-79eb-11ee-bb2c-91f2ee1349ad"
 :fontWeight 400
 :noFill true
-:point [304.83 257.67]
+:point [200.83 185.67]
 :fontSize 20
 :handles 
 {:start 
@@ -324,10 +324,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:nonce 1698976088944
+:nonce 1698976088962
 :italic false}}
-:block/updated-at 1698976096214} 
-{:block/created-at 1698976101291
+:block/updated-at 1698982380071} 
+{:block/created-at 1698982380072
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -344,7 +344,7 @@
 :id "0df59da2-79eb-11ee-bb2c-91f2ee1349ad"
 :fontWeight 400
 :noFill true
-:point [280.51 257.67]
+:point [176.51 185.67]
 :fontSize 20
 :handles 
 {:start 
@@ -360,10 +360,11 @@
 :decorations 
 {:end "arrow"}
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:nonce 1698976095458
+:nonce 1698976095476
 :italic false}}
-:block/updated-at 1698976101291} 
-{:block/properties 
+:block/updated-at 1698982380072} 
+{:block/created-at 1698982380071
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -379,7 +380,7 @@
 :id "109c2c92-79eb-11ee-bb2c-91f2ee1349ad"
 :fontWeight 400
 :noFill true
-:point [274.24 257.67]
+:point [170.24 185.67]
 :fontSize 20
 :handles 
 {:start 
@@ -395,18 +396,213 @@
 :decorations 
 {:end "arrow"}
 :parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:nonce 1698976099915
+:nonce 1698976099933
 :italic false}}
-:block/updated-at 1698976101290})
+:block/updated-at 1698982380071} 
+{:block/content "非实名复机时间要大于非实名停机时间"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65445111-467f-4c77-a9e6-ded34ad7f99c"}
+:block/parent 
+{:block/uuid #uuid "65445111-467f-4c77-a9e6-ded34ad7f99c"}
+:block/uuid #uuid "65446a01-22c1-4cca-a818-d0303b60da98"} 
+{:block/created-at 1698982534621
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 11
+:scale [1 1]
+:pageId "65446a01-22c1-4cca-a818-d0303b60da98"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [304 40.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bb74ddc0-79f9-11ee-bb2c-91f2ee1349ad"
+:noFill false
+:point [176 784]
+:parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:collapsedHeight 0
+:nonce 1698982400400}}
+:block/updated-at 1698982534621} 
+{:block/content "全量表中已复机"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65445111-467f-4c77-a9e6-ded34ad7f99c"}
+:block/parent 
+{:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
+:block/uuid #uuid "65446a31-fb04-4711-a753-aa72c07fc667"} 
+{:block/created-at 1698982550241
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "red"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 12
+:scale [1 1]
+:pageId "65446a31-fb04-4711-a753-aa72c07fc667"
+:scaleLevel "md"
+:fill "red"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [152 40.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d0938350-79f9-11ee-bb2c-91f2ee1349ad"
+:noFill false
+:point [536 672]
+:parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:collapsedHeight 0
+:nonce 1698982435599}}
+:block/updated-at 1698982550241} 
+{:block/created-at 1698982534620
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 13
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "f3da4652-79f9-11ee-bb2c-91f2ee1349ad"
+:fontWeight 400
+:noFill true
+:point [369.11 698.46]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 84.54]
+:bindingId "f3da4650-79f9-11ee-bb2c-91f2ee1349ad"}
+:end 
+{:id "end"
+:canBind true
+:point [162.89 0]
+:bindingId "f3da4651-79f9-11ee-bb2c-91f2ee1349ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:nonce 1698982494225
+:italic false}}
+:block/updated-at 1698982534620} 
+{:block/content "全量表中未复机"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65446a31-fb04-4711-a753-aa72c07fc667"}
+:block/parent 
+{:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"}
+:block/properties 
+{}
+:block/uuid #uuid "65446a74-a662-41b3-8d4d-af6c96cb5f6a"} 
+{:block/created-at 1698982557914
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 14
+:scale [1 1]
+:pageId "65446a74-a662-41b3-8d4d-af6c96cb5f6a"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [136 40.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "fff7c6b0-79f9-11ee-bb2c-91f2ee1349ad"
+:noFill false
+:point [528 872]
+:parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:collapsedHeight 0
+:nonce 1698982514534}}
+:block/updated-at 1698982557914} 
+{:block/created-at 1698982557915
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 15
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "0ee88b52-79fa-11ee-bb2c-91f2ee1349ad"
+:fontWeight 400
+:noFill true
+:point [373.76 825.67]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "0ee88b50-79fa-11ee-bb2c-91f2ee1349ad"}
+:end 
+{:id "end"
+:canBind true
+:point [150.24 70.04]
+:bindingId "0ee88b51-79fa-11ee-bb2c-91f2ee1349ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:nonce 1698982539457
+:italic false}}
+:block/updated-at 1698982557915})
 :pages (
 {:block/uuid #uuid "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
 {:id "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:name "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
+:name "积分稽核"
 :bindings 
-{:109c2c91-79eb-11ee-bb2c-91f2ee1349ad 
+{:f3da4651-79f9-11ee-bb2c-91f2ee1349ad 
+{:id "f3da4651-79f9-11ee-bb2c-91f2ee1349ad"
+:type "line"
+:fromId "f3da4652-79f9-11ee-bb2c-91f2ee1349ad"
+:toId "d0938350-79f9-11ee-bb2c-91f2ee1349ad"
+:handleId "end"
+:point [0.15 0.37]
+:distance 4}
+:0ee88b50-79fa-11ee-bb2c-91f2ee1349ad 
+{:id "0ee88b50-79fa-11ee-bb2c-91f2ee1349ad"
+:type "line"
+:fromId "0ee88b52-79fa-11ee-bb2c-91f2ee1349ad"
+:toId "bb74ddc0-79f9-11ee-bb2c-91f2ee1349ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:109c2c91-79eb-11ee-bb2c-91f2ee1349ad 
 {:id "109c2c91-79eb-11ee-bb2c-91f2ee1349ad"
 :type "line"
 :fromId "109c2c92-79eb-11ee-bb2c-91f2ee1349ad"
@@ -429,6 +625,14 @@
 :toId "d865c340-79ea-11ee-bb2c-91f2ee1349ad"
 :handleId "end"
 :point [0.17 0.29]
+:distance 4}
+:f3da4650-79f9-11ee-bb2c-91f2ee1349ad 
+{:id "f3da4650-79f9-11ee-bb2c-91f2ee1349ad"
+:type "line"
+:fromId "f3da4652-79f9-11ee-bb2c-91f2ee1349ad"
+:toId "bb74ddc0-79f9-11ee-bb2c-91f2ee1349ad"
+:handleId "start"
+:point [0.5 0.5]
 :distance 4}
 :f40a7be0-79ea-11ee-bb2c-91f2ee1349ad 
 {:id "f40a7be0-79ea-11ee-bb2c-91f2ee1349ad"
@@ -470,6 +674,14 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:0ee88b51-79fa-11ee-bb2c-91f2ee1349ad 
+{:id "0ee88b51-79fa-11ee-bb2c-91f2ee1349ad"
+:type "line"
+:fromId "0ee88b52-79fa-11ee-bb2c-91f2ee1349ad"
+:toId "fff7c6b0-79f9-11ee-bb2c-91f2ee1349ad"
+:handleId "end"
+:point [0.16 0.79]
+:distance 4}
 :0df59da0-79eb-11ee-bb2c-91f2ee1349ad 
 {:id "0df59da0-79eb-11ee-bb2c-91f2ee1349ad"
 :type "line"
@@ -488,9 +700,9 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("a3744bc0-79ea-11ee-bb2c-91f2ee1349ad" "c8ad41d0-79ea-11ee-bb2c-91f2ee1349ad" "d537dbe0-79ea-11ee-bb2c-91f2ee1349ad" "d865c340-79ea-11ee-bb2c-91f2ee1349ad" "db4897e0-79ea-11ee-bb2c-91f2ee1349ad" "dfc175d0-79ea-11ee-bb2c-91f2ee1349ad" "f40a7be2-79ea-11ee-bb2c-91f2ee1349ad" "04f38e12-79eb-11ee-bb2c-91f2ee1349ad" "0a13f6a2-79eb-11ee-bb2c-91f2ee1349ad" "0df59da2-79eb-11ee-bb2c-91f2ee1349ad" "109c2c92-79eb-11ee-bb2c-91f2ee1349ad")}}
-:block/updated-at 1698976101290
+:shapes-index ("a3744bc0-79ea-11ee-bb2c-91f2ee1349ad" "c8ad41d0-79ea-11ee-bb2c-91f2ee1349ad" "d537dbe0-79ea-11ee-bb2c-91f2ee1349ad" "d865c340-79ea-11ee-bb2c-91f2ee1349ad" "db4897e0-79ea-11ee-bb2c-91f2ee1349ad" "dfc175d0-79ea-11ee-bb2c-91f2ee1349ad" "f40a7be2-79ea-11ee-bb2c-91f2ee1349ad" "04f38e12-79eb-11ee-bb2c-91f2ee1349ad" "0a13f6a2-79eb-11ee-bb2c-91f2ee1349ad" "0df59da2-79eb-11ee-bb2c-91f2ee1349ad" "109c2c92-79eb-11ee-bb2c-91f2ee1349ad" "bb74ddc0-79f9-11ee-bb2c-91f2ee1349ad" "d0938350-79f9-11ee-bb2c-91f2ee1349ad" "f3da4652-79f9-11ee-bb2c-91f2ee1349ad" "fff7c6b0-79f9-11ee-bb2c-91f2ee1349ad" "0ee88b52-79fa-11ee-bb2c-91f2ee1349ad")}}
+:block/updated-at 1698982557914
 :block/created-at 1698975912554
 :block/type "whiteboard"
-:block/name "654450a8-4605-4c81-97d5-cf7f4ab61ca0"
-:block/original-name "654450a8-4605-4c81-97d5-cf7f4ab61ca0"})}
+:block/name "积分稽核"
+:block/original-name "积分稽核"})}
